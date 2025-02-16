@@ -3,15 +3,16 @@ defaultAppearance = "light"
 autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = false
-replyByEmail = true
+replyByEmail = false
 disableImageOptimization = false
-disableTextInHeader = false
+disableTextInHeader = true
 giteaDefaultServer = "https://git.fsfe.org"
 forgejoDefaultServer = "https://v8.next.forgejo.org"
-defaultBackgroundImage = "assets/test.png"
+defaultBackgroundImage = "background.webp"
+defaultFeaturedImage = "feature.webp"
 
 [header]
-layout = "basic"
+layout = "fixed-fill-blur"
 
 [footer]
 showMenu = true
@@ -22,26 +23,26 @@ showScrollToTop = true
 
 [homepage]
 layout = "card"
+homepageImage = "roberto-nickson.jpg"
 showRecent = false
 showRecentItems = 5
 showMoreLink = false
 showMoreLinkDest = "/posts/"
-cardView = false
+cardView = true
 cardViewScreenWidth = false
-layoutBackgroundBlur = false
-homepageImage = "test.png"
+layoutBackgroundBlur = true
 
 [article]
-showDate = true
+showDate = false
 showViews = false
 showLikes = false
-showDateOnlyInArticle = false
+showDateOnlyInArticle = true
 showDateUpdated = false
 showAuthor = true
-showHero = false
+showHero = true
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
-showBreadcrumbs = false
+showBreadcrumbs = true
 showDraftLabel = true
 showEdit = false
 editAppendPath = true
@@ -53,8 +54,9 @@ showReadingTime = true
 showTableOfContents = false
 showTaxonomies = false
 showAuthorsBadges = false
-showWordCount = true
-showZenMode = false
+showWordCount = false
+showZenMode = true
+heroStyle = "background"
 
 [list]
 showHero = false

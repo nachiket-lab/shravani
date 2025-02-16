@@ -28,9 +28,21 @@ We are located in a prime coastal area, offering breathtaking views and easy acc
 ### 📸 Gallery
 Check out our **photo gallery** to experience the charm of Shravani Holiday Home. 
 
-![Scenic view of the beach](images/gallery1.jpg)  
+<!-- {{< carousel images="gallery/*.jpg" aspectRatio="21-9" interval="2500" >}} -->
+
+{{< gallery >}}
+  <img src="gallery/02.jpg" class="grid-w33" />
+  <img src="gallery/03.jpg" class="grid-w33" />
+  <img src="gallery/04.jpg" class="grid-w33" />
+  <img src="gallery/05.jpg" class="grid-w33" />
+  <img src="gallery/06.jpg" class="grid-w33" />
+  <img src="gallery/07.jpg" class="grid-w33" />
+  <img src="gallery/01.jpg" class="grid-w33" />
+{{< /gallery >}}
+
+<!-- ![Scenic view of the beach](images/gallery1.jpg)  
 ![Cozy outdoor seating](images/gallery2.jpg)  
-![Lush green surroundings](images/gallery3.jpg)
+![Lush green surroundings](images/gallery3.jpg) -->
 
 ### 🏖️ Plan Your Stay
 Looking for a serene getaway? Come and experience the warmth and hospitality of **Shravani Holiday Home**. Feel free to explore and immerse yourself in nature’s beauty.
