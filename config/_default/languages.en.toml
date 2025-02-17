@@ -2,11 +2,10 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Blowfish"
+title = "Shravani Holiday Home"
 
 [params]
 displayName = "EN"
 isoCode = "en"
 rtl = false
-dateFormat = "2 January 2006"
 logo = "shh_logo.png"

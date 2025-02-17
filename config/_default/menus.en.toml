@@ -11,14 +11,24 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Menu"
-  pageRef = "posts"
-  weight = 10
+  name = "About"
+  pageRef = "/about"
+  weight = 2
 
 [[main]]
-  name = "Topics"
-  pageRef = "topics"
-  weight = 20
+  name = "Gallery"
+  pageRef = "/gallery"
+  weight = 3
+
+[[main]]
+  name = "Menu"
+  pageRef = "/menu"
+  weight = 4
+
+[[main]]
+  name = "Location"
+  pageRef = "/location"
+  weight = 5
 
 [[main]]
   pre = "email"
@@ -38,6 +48,13 @@
   parent = "Contact Us"
   url = "https://www.instagram.com/shravaniholidayhome_/"
   weight = 30
+
+[[main]]
+  pre = "globe"
+  name = "Address"
+  pageRef = "/contact"
+  parent = "Contact Us"
+  weight = 31
 
 [[footer]]
   name = "Privacy"

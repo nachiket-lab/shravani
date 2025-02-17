@@ -5,14 +5,14 @@ enableSearch = true
 enableCodeCopy = false
 replyByEmail = false
 disableImageOptimization = false
-disableTextInHeader = true
+disableTextInHeader = false
 giteaDefaultServer = "https://git.fsfe.org"
 forgejoDefaultServer = "https://v8.next.forgejo.org"
 defaultBackgroundImage = "background.webp"
 defaultFeaturedImage = "feature.webp"
 
 [header]
-layout = "fixed-fill-blur"
+layout = "basic"
 
 [footer]
 showMenu = true
@@ -28,7 +28,7 @@ showRecent = false
 showRecentItems = 5
 showMoreLink = false
 showMoreLinkDest = "/posts/"
-cardView = true
+cardView = false
 cardViewScreenWidth = false
 layoutBackgroundBlur = true
 
@@ -36,7 +36,7 @@ layoutBackgroundBlur = true
 showDate = false
 showViews = false
 showLikes = false
-showDateOnlyInArticle = true
+showDateOnlyInArticle = false
 showDateUpdated = false
 showAuthor = true
 showHero = true
@@ -50,12 +50,12 @@ seriesOpened = false
 showHeadingAnchors = true
 showPagination = true
 invertPagination = false
-showReadingTime = true
+showReadingTime = false
 showTableOfContents = false
-showTaxonomies = false
+showTaxonomies = true
 showAuthorsBadges = false
 showWordCount = false
-showZenMode = true
+showZenMode = false
 heroStyle = "background"
 
 [list]
