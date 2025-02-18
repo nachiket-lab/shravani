@@ -24,7 +24,7 @@ Easily accessible, our coastal retreat offers breathtaking views.
 📌 **[See Location](/location/)**  
 
 ## 📸 Gallery  
-{{< carousel images="gallery/*.jpg" aspectRatio="16-9" interval="3000" >}}  
+{{< carousel images="images/*.jpg" aspectRatio="16-9" interval="3000" >}}  
 🔗 **[View Full Gallery](/gallery/)**  
 
 ## 🍽️ Explore Our Menu  

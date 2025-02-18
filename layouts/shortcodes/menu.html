@@ -1,0 +1,106 @@
+{{ $menu := .Get "menu" | default $.Site.Data.menu }}
+
+<style>
+  :root {
+  --table-bg: var(--color-surface);
+  --table-border: var(--color-border);
+  --table-text: var(--color-text);
+  --table-header-bg: var(--color-primary);
+  --table-header-text: var(--color-on-primary);
+  --table-hover-bg: var(--color-hover);
+}
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.menu-section {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+  background: var(--table-bg);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+  color: var(--table-header-bg);
+}
+
+h3 {
+  margin-top: 20px;
+  color: var(--table-header-bg);
+}
+
+table {
+  width: 100%; /* Ensures table occupies full width of menu-section */
+  border-collapse: collapse;
+  background: var(--table-bg);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid var(--table-border);
+  color: var(--table-text);
+}
+
+th {
+  background: var(--table-header-bg);
+  color: var(--table-header-text);
+  font-weight: bold;
+  text-align: left;
+}
+
+td {
+  width: 50%; /* Ensures both columns distribute evenly */
+}
+
+th:last-child, td:last-child {
+  text-align: right; /* Aligns the price column properly */
+  white-space: nowrap; /* Prevents price wrapping */
+}
+
+tr:hover {
+  background: var(--table-hover-bg);
+}
+
+@media (max-width: 768px) {
+  .menu-container {
+    flex-direction: column;
+  }
+}
+
+</style>
+
+<div class="menu-container">
+  {{ range $menu.sections }}
+    <div class="menu-section">
+      <h2>{{ .title }}</h2>
+
+      {{ range .categories }}
+        <h3>{{ .name }}</h3>
+        <table>
+          <tr>
+            <th>Item</th>
+            <th>Price</th>
+          </tr>
+          {{ range .items }}
+            <tr>
+              <td>{{ .name }}</td>
+              <td>{{ .price }}</td>
+            </tr>
+          {{ end }}
+        </table>
+      {{ end }}
+    </div>
+  {{ end }}
+</div>

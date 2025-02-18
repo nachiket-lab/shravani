@@ -1,0 +1,38 @@
+{{ $bookingCard := index $.Page.Params "booking_card" }} {{/* Get the booking card data */}}
+
+{{ if $bookingCard }} {{/* Check if $bookingCard exists */}}
+<div class="relative flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-full booking-card">
+    <div class="relative h-56 m-2.5 overflow-hidden text-white rounded-md">
+        <img src="{{ index $bookingCard "image" }}" alt="{{ index $bookingCard "title" }}" class="object-cover w-full h-full medium-zoom-image" />
+    </div>
+    <div class="p-4">
+        <h6 class="text-slate-800 text-xl font-semibold">{{ index $bookingCard "title" }}</h6>
+        <div class="flex items-center gap-0.5 ml-auto">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                class="w-5 h-5 text-yellow-600" style="width: 20px; height: 20px;">
+                <path fill-rule="evenodd"
+                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                    clip-rule="evenodd"></path>
+            </svg>
+            <span class="text-slate-600 ml-1.5">{{ index $bookingCard "rating" }}</span>
+        </div>
+        <p class="text-slate-600 leading-normal font-light">{{ index $bookingCard "description" }}</p>
+    </div>
+
+    <!-- <div class="px-4 pb-4 pt-0 mt-2">
+        <button
+            class="reserve-button"
+            type="button">
+            Reserve
+        </button>
+    </div> -->
+    <div class="px-4 pb-4 pt-0 mt-2">
+        <button
+            class="reserve-button"
+            type="button"
+            href="https://maps.app.goo.gl/woSyLoinr8f6x4o3A">
+            View on Google Maps
+        </button>
+    </div>
+</div>
+{{ end }}

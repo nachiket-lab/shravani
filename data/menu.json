@@ -1,0 +1,267 @@
+{
+    "sections": [
+        {
+            "title": "🌿 Vegetarian",
+            "categories": [
+                {
+                    "name": "🥗 Snacks",
+                    "items": [
+                        {
+                            "name": "Tea",
+                            "price": "₹20"
+                        },
+                        {
+                            "name": "Coffee",
+                            "price": "₹35"
+                        },
+                        {
+                            "name": "Milk Glass",
+                            "price": "₹35"
+                        },
+                        {
+                            "name": "Kanda Poha",
+                            "price": "₹60"
+                        },
+                        {
+                            "name": "Upma",
+                            "price": "₹60"
+                        },
+                        {
+                            "name": "Sheera",
+                            "price": "₹60"
+                        },
+                        {
+                            "name": "Misal Pav",
+                            "price": "₹60"
+                        }
+                    ]
+                },
+                {
+                    "name": "🥦 Veg Starters",
+                    "items": [
+                        {
+                            "name": "Veg Manchurian",
+                            "price": "₹180"
+                        },
+                        {
+                            "name": "Paneer Chilly",
+                            "price": "₹220"
+                        },
+                        {
+                            "name": "Paneer 65",
+                            "price": "₹220"
+                        },
+                        {
+                            "name": "Mushroom Chilly",
+                            "price": "₹240"
+                        },
+                        {
+                            "name": "Baby Corn Chilly",
+                            "price": "₹240"
+                        }
+                    ]
+                },
+                {
+                    "name": "🌿 Veg Thali",
+                    "items": [
+                        {
+                            "name": "Veg Thali",
+                            "price": "₹220"
+                        }
+                    ]
+                },
+                {
+                    "name": "🍽️ Veg Rice & Noodles",
+                    "items": [
+                        {
+                            "name": "Steam Rice",
+                            "price": "₹100"
+                        },
+                        {
+                            "name": "Jeera Rice",
+                            "price": "₹120"
+                        },
+                        {
+                            "name": "Dal Khichadi",
+                            "price": "₹160"
+                        },
+                        {
+                            "name": "Curd Rice",
+                            "price": "₹130"
+                        },
+                        {
+                            "name": "Veg Pulao",
+                            "price": "₹180"
+                        },
+                        {
+                            "name": "Veg Biryani",
+                            "price": "₹200"
+                        },
+                        {
+                            "name": "Green Peas Pulao",
+                            "price": "₹150"
+                        },
+                        {
+                            "name": "Veg Fried Rice",
+                            "price": "₹170"
+                        },
+                        {
+                            "name": "Veg Schezwan Rice",
+                            "price": "₹180"
+                        },
+                        {
+                            "name": "Veg Hakka Noodles",
+                            "price": "₹200"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "🍗 Non-Vegetarian",
+            "categories": [
+                {
+                    "name": "🥩 Chicken Starters",
+                    "items": [
+                        {
+                            "name": "Chicken Sukha",
+                            "price": "₹200"
+                        },
+                        {
+                            "name": "Chicken Chilly Dry",
+                            "price": "₹220"
+                        },
+                        {
+                            "name": "Chicken 65",
+                            "price": "₹200"
+                        },
+                        {
+                            "name": "Chicken Lollypop (6 Pcs)",
+                            "price": "₹200"
+                        },
+                        {
+                            "name": "Chicken Black Pepper",
+                            "price": "₹220"
+                        }
+                    ]
+                },
+                {
+                    "name": "🐟 Fish Starters",
+                    "items": [
+                        {
+                            "name": "Pomfret Fry (1 Pc)",
+                            "price": "₹350"
+                        },
+                        {
+                            "name": "Surmai Fry (2 Pcs)",
+                            "price": "₹300"
+                        },
+                        {
+                            "name": "Prawns Fry (10 Pcs)",
+                            "price": "₹300"
+                        }
+                    ]
+                },
+                {
+                    "name": "🍲 Non-Veg Soups",
+                    "items": [
+                        {
+                            "name": "Chicken Manchow Soup",
+                            "price": "₹150"
+                        },
+                        {
+                            "name": "Chicken Hot & Sour Soup",
+                            "price": "₹160"
+                        },
+                        {
+                            "name": "Chicken Sweet Corn Soup",
+                            "price": "₹160"
+                        }
+                    ]
+                },
+                {
+                    "name": "🍽️ Non-Veg Rice & Noodles",
+                    "items": [
+                        {
+                            "name": "Egg Fried Rice",
+                            "price": "₹180"
+                        },
+                        {
+                            "name": "Chicken Fried Rice",
+                            "price": "₹200"
+                        },
+                        {
+                            "name": "Chicken Schezwan Rice",
+                            "price": "₹220"
+                        },
+                        {
+                            "name": "Mixed Fried Rice",
+                            "price": "₹240"
+                        },
+                        {
+                            "name": "Chicken Triple Rice",
+                            "price": "₹250"
+                        },
+                        {
+                            "name": "Chicken Biryani",
+                            "price": "₹300"
+                        },
+                        {
+                            "name": "Mutton Biryani",
+                            "price": "₹350"
+                        },
+                        {
+                            "name": "Prawns Biryani",
+                            "price": "₹380"
+                        }
+                    ]
+                },
+                {
+                    "name": "🍗 Non-Veg Thali",
+                    "items": [
+                        {
+                            "name": "Chicken Thali",
+                            "price": "₹300"
+                        },
+                        {
+                            "name": "Mutton Thali",
+                            "price": "₹450"
+                        },
+                        {
+                            "name": "Bombil Thali (Seasonal)",
+                            "price": "₹250"
+                        },
+                        {
+                            "name": "Pomfret Thali",
+                            "price": "₹450"
+                        },
+                        {
+                            "name": "Surmai Thali",
+                            "price": "₹450"
+                        },
+                        {
+                            "name": "Bangada Thali",
+                            "price": "₹300"
+                        },
+                        {
+                            "name": "Egg Thali",
+                            "price": "₹300"
+                        },
+                        {
+                            "name": "Prawns Thali",
+                            "price": "₹450"
+                        },
+                        {
+                            "name": "Chapati",
+                            "price": "₹50"
+                        },
+                        {
+                            "name": "Bhakari",
+                            "price": "₹25"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

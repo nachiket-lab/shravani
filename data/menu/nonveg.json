@@ -1,0 +1,61 @@
+[
+    {
+        "name": "Chicken Starters",
+        "items": [
+            {
+                "name": "Chicken Sukha",
+                "price": "₹200"
+            },
+            {
+                "name": "Chicken Chilly Dry",
+                "price": "₹220"
+            },
+            {
+                "name": "Chicken 65",
+                "price": "₹200"
+            },
+            {
+                "name": "Chicken Lollypop (6 Pcs)",
+                "price": "₹200"
+            },
+            {
+                "name": "Chicken Black Pepper",
+                "price": "₹220"
+            }
+        ]
+    },
+    {
+        "name": "🐟 Fish Starters",
+        "items": [
+            {
+                "name": "Pomfret Fry (1 Pc)",
+                "price": "₹350"
+            },
+            {
+                "name": "Surmai Fry (2 Pcs)",
+                "price": "₹300"
+            },
+            {
+                "name": "Prawns Fry (10 Pcs)",
+                "price": "₹300"
+            }
+        ]
+    },
+    {
+        "name": "🍜 Non-Veg Soups",
+        "items": [
+            {
+                "name": "Chicken Manchow Soup",
+                "price": "₹150"
+            },
+            {
+                "name": "Chicken Hot & Sour Soup",
+                "price": "₹160"
+            },
+            {
+                "name": "Chicken Sweet Corn Soup",
+                "price": "₹160"
+            }
+        ]
+    }
+]

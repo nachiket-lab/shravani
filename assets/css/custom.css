@@ -1,0 +1,126 @@
+/* assets/css/custom.css */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid var(--border-color);
+    /* Use theme border color */
+    border-radius: 8px;
+    padding: 20px;
+    width: calc(33.33% - 20px);
+    /* Adjust as needed */
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+    transition: transform 0.2s;
+    background-color: var(--card-background-color);
+    /* Use theme background color */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.card-icon {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: var(--primary-color);
+    /* Use theme primary color */
+}
+
+.card-title {
+    margin-bottom: 5px;
+    color: var(--text-color);
+    /* Use theme text color */
+}
+
+.card-description {
+    color: var(--secondary-text-color);
+    /* Use theme secondary text color */
+}
+
+
+/* Responsive adjustments (example) */
+@media (max-width: 768px) {
+    .card {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 500px) {
+    .card {
+        width: 100%;
+    }
+}
+
+:root {
+    /* --card-background-color: #87877b; */
+    --border-color: #ddd;
+    /* Light gray - adjust as needed */
+}
+
+.booking-card {
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    /* Take full width */
+    max-width: 96rem;
+    /* Optional: Set a maximum width */
+    box-sizing: border-box;
+    /* Important for padding and border */
+    background-color: var(--card-background-color);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    margin: 1.5rem auto;
+    /* Center the card */
+}
+
+.booking-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.booking-card .reserve-button {
+    /* Add a specific class to the button */
+    width: 100%;
+    border-radius: 0.375rem;
+    background-color: #1D4ED8;
+    padding: 0.5rem 1rem;
+    border: 1px solid transparent;
+    text-align: center;
+    font-size: 0.875rem;
+    color: #FFFFFF;
+    transition: all 0.2s;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.booking-card .reserve-button:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #1E40AF;
+}
+
+.booking-card .reserve-button:focus {
+    background-color: #1E40AF;
+    box-shadow: none;
+}
+
+.booking-card .reserve-button:active {
+    background-color: #1E40AF;
+    box-shadow: none;
+}
+
+.booking-card .reserve-button:disabled {
+    pointer-events: none;
+    opacity: 0.5;
+    box-shadow: none;
+}
+
+.booking-card img {
+    object-fit: cover;
+    /* or contain, depending on your preference */
+}

@@ -50,10 +50,17 @@
   weight = 30
 
 [[main]]
-  pre = "globe"
-  name = "Address"
-  pageRef = "/contact"
+  pre = "phone"
+  name = "Primary"
   parent = "Contact Us"
+  url = "tel:+919657572175"
+  weight = 31
+
+[[main]]
+  pre = "phone"
+  name = "Secondary"
+  parent = "Contact Us"
+  url = "tel:+917066608536"
   weight = 31
 
 [[footer]]

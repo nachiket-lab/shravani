@@ -1,0 +1,60 @@
+[
+    {
+        "name": "🥗 Snacks",
+        "items": [
+            {
+                "name": "Tea",
+                "price": "₹20"
+            },
+            {
+                "name": "Coffee",
+                "price": "₹35"
+            },
+            {
+                "name": "Milk Glass",
+                "price": "₹35"
+            },
+            {
+                "name": "Kanda Poha",
+                "price": "₹60"
+            },
+            {
+                "name": "Upma",
+                "price": "₹60"
+            },
+            {
+                "name": "Sheera",
+                "price": "₹60"
+            },
+            {
+                "name": "Misal Pav",
+                "price": "₹60"
+            }
+        ]
+    },
+    {
+        "name": "🥦 Veg Starters",
+        "items": [
+            {
+                "name": "Veg Manchurian",
+                "price": "₹180"
+            },
+            {
+                "name": "Paneer Chilly",
+                "price": "₹220"
+            },
+            {
+                "name": "Paneer 65",
+                "price": "₹220"
+            },
+            {
+                "name": "Mushroom Chilly",
+                "price": "₹240"
+            },
+            {
+                "name": "Baby Corn Chilly",
+                "price": "₹240"
+            }
+        ]
+    }
+]
