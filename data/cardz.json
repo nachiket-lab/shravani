@@ -1,0 +1,19 @@
+{
+    "cardz": [
+        {
+            "icon": "fas fa-car",
+            "title": "By Car",
+            "description": "A scenic 3-hour drive from Mumbai or Pune."
+        },
+        {
+            "icon": "fas fa-ship",
+            "title": "By Ferry",
+            "description": "Regular ferry services from Mumbai to Mandwa Jetty, followed by a short drive."
+        },
+        {
+            "icon": "fas fa-bus",
+            "title": "By Bus",
+            "description": "Direct bus routes available from nearby cities."
+        }
+    ]
+}

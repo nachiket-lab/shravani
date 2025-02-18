@@ -1,4 +1,4 @@
-{{ $bookingCard := index $.Page.Params "booking_card" }} {{/* Get the booking card data */}}
+{{ $bookingCard := index $.Site.Data.booking_card "booking_card" }}
 
 {{ if $bookingCard }} {{/* Check if $bookingCard exists */}}
 <div class="relative flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-full booking-card">

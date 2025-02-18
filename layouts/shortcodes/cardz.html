@@ -1,4 +1,4 @@
-{{ $pageParams := $.Page.Params }}
+{{ $pageParams := $.Site.Data.cardz }}
 {{ $cardz := index $pageParams "cardz" }}
 
 {{ if $cardz }}
